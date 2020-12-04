@@ -95,5 +95,6 @@ async def on_message(message): # 입력되는 메세지에서 찾기
 
 
 
-client.run('NzgyNTQzMzk5ODA2Njk3NDcy.X8NuVQ.UUnW75_Pj5Ra2d5V645CMSpHe4U')
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
 
